@@ -5,6 +5,7 @@
 #ifndef SPOTIFYMUSICPLAYER_SONG_H
 #define SPOTIFYMUSICPLAYER_SONG_H
 #include <iostream>
+#include "Album.cpp"
 
 class Song {
 public:
@@ -12,6 +13,7 @@ public:
     std::string genre;
     std::string pictureFile;
     double length;
+
 
 
 
