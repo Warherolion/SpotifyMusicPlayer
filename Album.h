@@ -5,17 +5,19 @@
 #ifndef SPOTIFYMUSICPLAYER_ALBUM_H
 #define SPOTIFYMUSICPLAYER_ALBUM_H
 #include <iostream>
+#include <vector>
 #include "Song.cpp"
 
-template <size_t a>
+
 class Album {
 public:
     std::string albumName;
+    std::string artistName;
     int yearReleased;
     int songNumber;
     double albumLength;
     std::string genre;
-    Song songs[a];
+    std::vector<Song> song;
 };
 
 

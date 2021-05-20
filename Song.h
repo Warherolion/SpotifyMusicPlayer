@@ -10,14 +10,10 @@
 class Song {
 public:
     std::string artist;
+    std::string songName;
     std::string genre;
-    std::string pictureFile;
     double length;
-
-
-
-
-
+    Album album;
 };
 
 
